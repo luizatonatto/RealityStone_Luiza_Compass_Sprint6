@@ -1,0 +1,5 @@
+valid_product: "Dresses"
+
+user_for_login:
+  email: 'testehml@gm.com'
+  password: '123456'
