@@ -1,4 +1,4 @@
-default: -p prd -p html 
+default: -p prd #-p html 
 default_hml: -p hml -p chrome
 
 #ENVIRONMENT

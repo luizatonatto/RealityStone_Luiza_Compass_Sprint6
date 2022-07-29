@@ -4,13 +4,12 @@ Quando('acessar a página do produto') do
   end
   
   Quando('alterar a cor do produto') do
-    @image_before = @product_page.main_image['src']
+    @image_before = @product_page.mainimage['src']
     @product_page.colors[2].click
   end
   
   Então('deverá alterar a imagem apresentada na PDP') do
-    expect(@product_page.main_image['src']).not_to eql @image_before
-    @product_page.wait_until_main_image_visible(wait: 4)
+    expect(@product_page.mainimage['src']).not_to eql @image_before
   end
 
 
@@ -36,5 +35,5 @@ Quando('acessar a página do produto') do
   
   Então('deverá deletar o produto do Cart') do
     @product_page.btn_delete_cart.click
-    @product_page.wait_until_msg_cart_empty_visible(wait: 4)
+    @product_page.wait_until_msgcartempty_visible(wait: 4)
   end
