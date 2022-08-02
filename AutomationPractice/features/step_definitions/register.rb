@@ -4,8 +4,8 @@ Dado('que o usuário esteja na página Authentication do site e-commerce Automat
 end
   
 Dado('que o usuário cadastrou um e-mail com sucesso') do
-     @register_page.input_email_register.set Factory::Dynamic.dynamic_data[:r_email]
-     @register_page.btn_for_register.click
+    @register_page.input_email_register.set Factory::Dynamic.dynamic_data[:r_email]
+    @register_page.btn_for_register.click
 end
   
 Quando('a página for direcionada para YOUR PERSONAL INFORMATION') do

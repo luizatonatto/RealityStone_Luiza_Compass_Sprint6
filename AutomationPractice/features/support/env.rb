@@ -16,6 +16,7 @@ URL = ENVIRONMENT_CONFIG['url']
 Capybara.register_driver :my_chrome do |app|
     options = ::Selenium::WebDriver::Chrome::Options.new
     options.args << '--incognito'
+    options.args << '--disable-site-isolation-trials'
     options.args << '--start-maximized'
     options.args << '--window-size=1420,835'
     options.args << '--no-sandbox'

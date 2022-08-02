@@ -14,12 +14,16 @@ Funcionalidade: Search
 
     @search_por_produto
     Cenário: Buscar por um produto existente
-     Quando realizar uma search por um produto existente
+     Quando o usuário buscar pelo produto "<produto>"
      Então deverá ser retornado o resultado da busca escolhida
+
+     Exemplos:          
+    |      produto        |
+    | Printed Summer Dress|
 
     @search_por_produtos_diferentes
     Esquema do Cenário: Buscar por produtos existentes
-     Quando buscar pelo produto "<produto>"
+     Quando o usuário buscar pelo produto "<produto>"
      Então deverá ser retornado o resultado da busca escolhida
 
     Exemplos:          
