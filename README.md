@@ -98,14 +98,25 @@ Frameworks e Bibliotecas necessárias durante o processo:
 
 ## Conteúdo Plano de Teste 📑
 
-* Tem o intuito de verificar a usabilidade do site E- commerce “Automation Practice” na visão dos usuários, verificando possíveis issues que venham a atrapalhar os clientes na visualização e navegação pelo varejo ou qualquer empecilhos que os impeçam de finalizar compras. 
+⭐ Tem o intuito de verificar a usabilidade do site E- commerce “Automation Practice” na visão dos usuários, verificando possíveis issues que venham a atrapalhar os clientes na visualização e navegação pelo varejo ou qualquer empecilhos que os impeçam de finalizar compras. 
+
+ * OBJETIVOS                       
+ * ESCOPO                         
+ * MAPA MENTAL                       
+ * BDD's                             
+ * SUÍTE DE CASOS DE TESTE           
+ * ESTRATÉGIA DE TESTE
+ * PRIORIDADES
+ * TESTES CANDIDATOS A AUTOMAÇÃO
+ * EQUIPE DE TESTES
+ * OBSERVAÇÕES COMPLEMENTARES
 
 ## Conteúdo Relatório de Execução 📗
 
-* Resultados da automação rodada em cima da usabilidade do site E- commerce “Automation Practice” na visão dos usuários;
-* Dados de Issues que atrapalharam o fluxo da automação;
+* ANÁLISE DE RESULTADOS da automação rodada em cima da usabilidade do site E- commerce “Automation Practice” na visão dos usuários;
+* COBERTURA DE TESTES 
+* BUGS: Issues que atrapalharam o fluxo da automação;
 * Report
-
 
 ## Comandos
 
