@@ -16,12 +16,12 @@ Quando('acessar a página do produto') do
   
   Então('deverá alterar a imagem apresentada na PDP') do
     expect(@product_page.mainimage['src']).not_to eql @image_before
-    sleep(2)
+    #sleep(2)
   end
 
   Quando('aumentar a quantidade de produto') do
     @product_page.btn_quantity_product.click
-    sleep(2)
+    #sleep(2)
   end
   
   Então('deverá alterar a quantidade exibida na PDP') do
